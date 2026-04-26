@@ -21,4 +21,4 @@ This repository contains code and configuration for building and running workflo
 
 ## License
 
-Add your preferred license information here.
+MIT LICENSE
