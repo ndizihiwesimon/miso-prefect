@@ -26,15 +26,15 @@ pull:
 # the deployments section allows you to provide configuration
 # for deploying flows
 deployments:
-- name: null
+- name: main-deployment
   version: null
   tags: []
-  description: null
+  description: Run the main hello flow.
   schedule: {}
-  flow_name: null
-  entrypoint: null
+  flow_name: main
+  entrypoint: main.py:main
   parameters: {}
   work_pool:
-    name: null
+    name: miso
     work_queue_name: null
     job_variables: {}
