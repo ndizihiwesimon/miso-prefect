@@ -1,0 +1,12 @@
+[project]
+name = "miso-prefect"
+version = "0.1.0"
+description = "A small Prefect project for running a greeting flow."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "prefect>=3.6,<4.0",
+]
+
+[tool.uv]
+package = false
